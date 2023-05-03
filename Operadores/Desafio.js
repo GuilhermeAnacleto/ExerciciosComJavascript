@@ -1,0 +1,12 @@
+const bool1 = true
+const bool2 = false
+const bool3 = !bool2
+
+resultado = bool1 && bool2
+console.log(" a. ", resultado)
+
+resultado = bool1 && bool2 && bool3
+console.log(" b. ", resultado)
+
+resultado = !resultado && (bool1 || bool2)
+console.log(" C. ", resultado)
